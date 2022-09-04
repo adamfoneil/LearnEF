@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnEF", "LearnEF\LearnEF.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnEF.Database", "LearnEF.Database\LearnEF.Database.csproj", "{D211FDAC-E087-40C9-9106-5E3392E533F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnEF.ModelSync", "LearnEF.ModelSync\LearnEF.ModelSync.csproj", "{7D8BAA0B-36F7-4F55-BD94-1B02B25DFBF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D211FDAC-E087-40C9-9106-5E3392E533F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D211FDAC-E087-40C9-9106-5E3392E533F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D211FDAC-E087-40C9-9106-5E3392E533F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8BAA0B-36F7-4F55-BD94-1B02B25DFBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8BAA0B-36F7-4F55-BD94-1B02B25DFBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8BAA0B-36F7-4F55-BD94-1B02B25DFBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8BAA0B-36F7-4F55-BD94-1B02B25DFBF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
