@@ -25,7 +25,7 @@ public override async Task<int> SaveChangesAsync(CancellationToken cancellationT
 For comparison, I do this in [Dapper.Repository](https://github.com/adamfoneil/Dapper.Repository) with a [BeforeSaveAsync](https://github.com/adamfoneil/Dapper.Repository/blob/master/Dapper.Repository/Repository_virtuals.cs#L57) virtual method.
 
 <details>
-   <summary>Dapper Example:</summary>
+   <summary>Dapper Example</summary>
    
    ```csharp
    protected override async Task BeforeSaveAsync(IDbConnection connection, SaveAction action, TModel model, IDbTransaction txn = null)
