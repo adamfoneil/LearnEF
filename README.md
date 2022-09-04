@@ -2,6 +2,8 @@ I'm teaching myself EF Core because.... why not? I have a whole ecosystem of too
 
 I've messed with EF before so I'm not totally new to it, but there are a couple things about it I still find excruciating.
 
+This is obviously just scratching the surface btw.
+
 # The Good
 I like that I could implement [Base Table](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF.Database/Conventions/BaseTable.cs) conventions, such as a standard `Id` property and some common date stamp columns. I like that it was easy to set these properties [during a save](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF/OrdersContext.cs#L28-L32).
 
