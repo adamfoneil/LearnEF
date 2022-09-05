@@ -1,4 +1,4 @@
-I'm teaching myself EF Core because.... why not? I have a whole ecosystem of tools that use with a Dapper-based ORM approach, namely [ModelSync.UI](https://github.com/adamfoneil/ModelSync.UI). This is a rapid, low-friction way to evolve a database model, but it's intended for a shared development database. It's not meant for offline dev databases.
+I'm teaching myself EF Core because.... why not? I have a little ecosystem of tools that use with a Dapper-based ORM approach, namely [ModelSync.UI](https://github.com/adamfoneil/ModelSync.UI). This is a rapid, low-friction way to evolve a database model, but it's intended for a shared development database. It's not meant for offline dev databases.
 
 I've messed with EF before so I'm not totally new to it, but there are a couple things about it I still find excruciating.
 
