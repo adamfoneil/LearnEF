@@ -1,4 +1,4 @@
-I'm teaching myself EF Core because.... why not? I have a little ecosystem of tools that use with a Dapper-based ORM approach, namely [ModelSync.UI](https://github.com/adamfoneil/ModelSync.UI). This is a rapid, low-friction way to evolve a database model, but it's intended for a shared development database. It's not meant for offline dev databases. I have a couple other packages extending Dapper in a few ways that suit how I like to work.
+I'm teaching myself EF Core because.... why not? I have a little ecosystem of tools that use with a Dapper-based ORM approach, namely [ModelSync.UI](https://github.com/adamfoneil/ModelSync.UI). This is a rapid, low-friction way to evolve a database model, but it's intended for a shared development database. It's not meant for offline dev databases. I have a couple other packages extending Dapper in a few ways that suit how I like to work. That's a different discussion. The purpose of this repo is to build up a set of EF use cases, then possibly compare/contrast with Dapper as appropriate.
 
 I've messed with EF before so I'm not totally new to it, but there are a couple things about it I still find excruciating.
 
