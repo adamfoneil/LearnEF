@@ -57,7 +57,7 @@ There's no declarative composite primary key syntax. You have to put composite k
 
 Along the same lines, foreign keys have a couple requirements and limitations I don't understand.
 
-- There's no declaractive way to turn off cascade deletes. You have to put these in your migration such as [here](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF/Migrations/20220904174720_OrderTable.cs#L39) and [here](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF/Migrations/20220904174720_OrderTable.cs#L45). Again, ModelSync handles this with declarative syntax so anyone looking at the class at a glance whether it has cascade deletes or not.
+- There's no declaractive way to turn off cascade deletes. For some reason, EF enables cascade deletes by default. That's really weird IMO. You have to put these in your migration such as [here](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF/Migrations/20220904174720_OrderTable.cs#L39) and [here](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF/Migrations/20220904174720_OrderTable.cs#L45). Again, ModelSync handles this with declarative syntax so anyone looking at the class at a glance whether it has cascade deletes or not.
 
 - You have to add [collection](https://github.com/adamfoneil/LearnEF/blob/master/LearnEF.Database/Customer.cs#L12) properties on the primary side to create FKs, otherwise they're ignored. Why doesn't a `[ForeignKey]` attribute alone suffice?
 
