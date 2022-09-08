@@ -64,6 +64,8 @@ Along the same lines, foreign keys have a couple requirements and limitations I 
 <details>
   <summary>ModelSync Example</summary>
   
+  I would normally not use the `CascadeDelete` optional argument because only in rare cases do I use that. By default with ModelSync, cascade deletes are not used.
+  
 ```csharp
 public class Order : BaseTable
 {
